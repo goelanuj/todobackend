@@ -1,0 +1,5 @@
+Django==1.9
+django-cors-headers==1.1.0
+djangorestframework==3.3.0
+protobuf==3.12.2
+six==1.15.0

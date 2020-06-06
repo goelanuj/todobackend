@@ -1,0 +1,5 @@
+FROM nginx
+MAINTAINER Anuj Goel <anuj_goel@homedepot.com>
+ 
+# Copy todobackend nginx configuration file
+COPY todobackend.conf /etc/nginx/conf.d/todobackend.conf
